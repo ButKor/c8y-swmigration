@@ -4,9 +4,9 @@ Tool to migrate the software repository entries prior to Cumulocity v10.7 to the
 
 # Usage
 
-1) Clone the git repositoy to your localhost: `git clone https://github.com/ButKor/c8y-sw-migration.git`
+1) Clone the git repositoy to your localhost: `git clone https://github.com/ButKor/c8y-swmigration.git`
 
-2) Jump into cloned project: `cd c8y-sw-migration`
+2) Jump into cloned project: `cd c8y-swmigration`
 
 3) Build the docker image: `docker build -t swmigration .`
 
