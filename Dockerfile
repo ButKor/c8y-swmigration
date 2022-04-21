@@ -1,7 +1,8 @@
 # Build
-FROM golang:1.17-alpine As build
+FROM golang:1.18-alpine As build
 WORKDIR /app
 ADD ./ ./
+RUN apk add git
 RUN go build -o swmigration ./pkg
 
 # Deploy
